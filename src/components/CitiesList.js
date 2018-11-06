@@ -5,7 +5,7 @@ import City from "./City";
 const CitiesList = props => {
   return (
     <div>
-      {props.cities.map(city => <City key={city.id} citizenCity={city} />)}
+      {state.cities.map(city => <City key={city.id} citizenCity={city} />)}
     </div>
   );
 };
